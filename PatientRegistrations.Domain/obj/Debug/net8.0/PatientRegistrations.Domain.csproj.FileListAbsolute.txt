@@ -1,0 +1,11 @@
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\bin\Debug\net8.0\PatientRegistrations.Domain.deps.json
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\bin\Debug\net8.0\PatientRegistrations.Domain.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\bin\Debug\net8.0\PatientRegistrations.Domain.pdb
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\PatientRegistrations.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\PatientRegistrations.Domain.AssemblyInfoInputs.cache
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\PatientRegistrations.Domain.AssemblyInfo.cs
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\PatientRegistrations.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\PatientRegistrations.Domain.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\refint\PatientRegistrations.Domain.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\PatientRegistrations.Domain.pdb
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistrations.Domain\obj\Debug\net8.0\ref\PatientRegistrations.Domain.dll

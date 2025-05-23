@@ -1,0 +1,17 @@
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\bin\Debug\net8.0\PatientRegistration.Data.deps.json
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\bin\Debug\net8.0\PatientRegistration.Data.runtimeconfig.json
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\bin\Debug\net8.0\PatientRegistration.Data.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\bin\Debug\net8.0\PatientRegistration.Data.pdb
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\bin\Debug\net8.0\PatientRegistrations.Domain.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\bin\Debug\net8.0\PatientRegistrations.Domain.pdb
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.csproj.AssemblyReference.cache
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.AssemblyInfoInputs.cache
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.AssemblyInfo.cs
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientR.D1E84D11.Up2Date
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\refint\PatientRegistration.Data.dll
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.pdb
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\PatientRegistration.Data.genruntimeconfig.cache
+C:\Users\Leo\Desktop\PatientRegistration\PatientRegistration.Data\obj\Debug\net8.0\ref\PatientRegistration.Data.dll

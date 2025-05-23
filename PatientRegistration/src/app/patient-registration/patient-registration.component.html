@@ -1,0 +1,111 @@
+<form>
+    <legend>Insert New Patient</legend>
+    <div class="mb-3">
+      <label for="Name" class="form-label">Name</label>
+      <input type="text" [(ngModel)]="patient.name" name="name" maxlength="40" id="Name" class="form-control" placeholder="Name">
+    </div>
+
+    <div class="mb-3">
+      <label for="Surname" class="form-label">Surname</label>
+      <input type="text" [(ngModel)]="patient.surName" name="surName"  maxlength="200" id="Surname" class="form-control" placeholder="Surname">
+    </div>
+
+    <div class="mb-3">
+      <label for="DateBirth" class="form-label">DateBirth</label>
+      <input type="text" [(ngModel)]="patient.dateBirth" name="dateBirth" [value]="onChangedBirthDate(patient.dateBirth)" mask="99/99/9999" id="DateBirth" class="form-control" placeholder="DateBirth">
+    </div>
+
+    <div class="mb-3">
+      <label for="Gender" class="form-label">Gender</label>
+      <select id="Gender" [(ngModel)]="patient.gender" name="gender" class="form-select">
+        <option value="M">Man</option>
+        <option value="F">Woman</option>
+        <option value="O">Others</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="Cpf" class="form-label">Cpf</label>
+      <input igxInput [(ngModel)]="patient.cpf" name="cpf" type="text" mask="999.999.999-99" id="Cpf" class="form-control" placeholder="Cpf">
+    </div>
+
+    <div class="mb-3">
+      <label for="Rg" class="form-label">Rg</label>
+      <input type="text" [(ngModel)]="patient.rg" name="rg" maxlength="10" id="Rg" class="form-control" placeholder="Rg">
+    </div>
+
+    <div class="mb-3">
+      <label for="Uf" class="form-label">Uf Rg</label>
+      <select id="Uf" [(ngModel)]="patient.ufRg" name="ufRg"  class="form-select">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="Email" class="form-label">E-mail</label>
+      <input type="text" [(ngModel)]="patient.email" name="email" maxlength="100" id="Email" class="form-control" placeholder="E-mail">
+    </div>
+
+    <div class="mb-3">
+      <label for="Cellphone" class="form-label">Cellphone</label>
+      <input type="text" [(ngModel)]="patient.cellphone" name="cellphone" mask="(99)99999-9999" id="Cellphone" class="form-control" placeholder="Cellphone">
+    </div>
+
+    <div class="mb-3">
+      <label for="Phone" class="form-label">Phone</label>
+      <input type="text" [(ngModel)]="patient.phone" name="phone" mask="(99)9999-9999" id="Phone" class="form-control" placeholder="Phone">
+    </div>
+
+    <div class="mb-3">
+      <label for="Agreement" class="form-label">Agreement</label>
+      <select id="Agreement"  [(ngModel)]="patient.agreementId" name="agreementId" class="form-select">
+        <option *ngFor="let agreement of listAgreement" [value]="agreement.agreementId">{{agreement.agreementName}}</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="CardNumber" class="form-label">Agreement CardNumber</label>
+      <input type="text" [(ngModel)]="patient.cardNumber" name="cardNumber" mask="9999 9999 9999 9999" id="CardNumber" class="form-control" placeholder="CardNumber">
+    </div>
+
+    <div class="mb-3">
+      <label for="CardDate" class="form-label">Agreement Card Date</label>
+      <input type="text" [(ngModel)]="patient.cardValidate" name="cardValidate" [value]="onChangedCardDate(patient.cardValidate)"   mask="99/9999" id="CardDate" class="form-control" placeholder="CardDate">
+    </div>
+
+    <!-- <div class="mb-3">
+      <div class="form-check">
+        <input (change)="onChangedCardDate($event)" class="form-check-input" type="checkbox" id="disabledFieldsetCheck" >
+        <label class="form-check-label" for="disabledFieldsetCheck">
+          Can’t check this
+        </label>
+      </div>
+    </div> -->
+    <button type="submit" (click)="saveOrUpdatePatient()" class="btn btn-primary">Save</button>
+</form>

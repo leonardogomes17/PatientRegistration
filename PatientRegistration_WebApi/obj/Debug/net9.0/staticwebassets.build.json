@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xuqY74ZxCSCLaQxJpsBjDyJOFfti0rT+FlwXvGKnqKU=",
+  "Source": "PatientRegistration_WebApi",
+  "BasePath": "_content/PatientRegistration_WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
